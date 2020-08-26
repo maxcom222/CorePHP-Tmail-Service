@@ -1,0 +1,63 @@
+[
+    {
+        "name": "php-imap/php-imap",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/barbushin/php-imap.git",
+            "reference": "bd5fbc5d660631839885788c6c416a5c755fc5ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/barbushin/php-imap/zipball/bd5fbc5d660631839885788c6c416a5c755fc5ab",
+            "reference": "bd5fbc5d660631839885788c6c416a5c755fc5ab",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "ext-iconv": "*",
+            "ext-imap": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.16",
+            "jakub-onderka/php-parallel-lint": "^1.0",
+            "paragonie/random_compat": "^1",
+            "phpunit/phpunit": "^5.7"
+        },
+        "suggest": {
+            "ext-fileinfo": "To facilitate IncomingMailAttachment::getMimeType() auto-detection"
+        },
+        "time": "2020-02-28T13:51:58+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "PhpImap\\": "src/PhpImap"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sergey Barbushin",
+                "email": "barbushin@gmail.com",
+                "homepage": "http://linkedin.com/in/barbushin"
+            }
+        ],
+        "description": "Manage mailboxes, filter/get/delete emails in PHP (supports IMAP/POP3/NNTP)",
+        "homepage": "https://github.com/barbushin/php-imap",
+        "keywords": [
+            "imap",
+            "mail",
+            "mailbox",
+            "php",
+            "pop3",
+            "receive emails"
+        ]
+    }
+]

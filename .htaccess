@@ -1,0 +1,28 @@
+## Uncomment (remove # ONLY NOT ##) line below if installed in folder and add folder name after /
+## Example: Script is installed in /public_html/short/ then it should be: Rewritebase /short
+## Then the files below should be (add slash to all): /index.php?a=$1
+
+#Options -MultiViews 
+
+RewriteEngine On
+
+## Uncomment the following line to use the multi-domain feature
+# RewriteCond %{HTTP_HOST} ^yourseconddomain\.com$ [NC]
+# RewriteRule ^(.*)$ http://yourfirstdomain.com/$1 [R=301,L]
+
+#Rewritebase /
+## Admin Panel
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^admin/(.*)?$ admin/index.php?a=$1 [QSA,NC,L]
+
+## Sitemap ###
+RewriteRule ^sitemap.xml$ sitemap.php
+
+## Application Handler
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ index.php?a=$1	[QSA,NC,L]
+
+## Error 404 ##
+ErrorDocument 404 /index.php?a=404

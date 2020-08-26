@@ -1,0 +1,110 @@
+Return-Path: <kcaribou0428@gmail.com>
+Delivered-To: test@moodofthemoon.com
+Received: from dunhere.moodofthemoon.com.com
+	by dunhere.moodofthemoon.com.com with LMTP
+	id ClRBKcjbiV4gFAAA3OcF8A
+	(envelope-from <kcaribou0428@gmail.com>)
+	for <test@moodofthemoon.com>; Sun, 05 Apr 2020 13:23:20 +0000
+Return-path: <kcaribou0428@gmail.com>
+Envelope-to: sss@moodofthemoon.com
+Delivery-date: Sun, 05 Apr 2020 13:23:20 +0000
+Received: from mail-io1-f42.google.com ([209.85.166.42]:35467)
+	by dunhere.moodofthemoon.com.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <kcaribou0428@gmail.com>)
+	id 1jL5F6-00013e-PH
+	for sss@moodofthemoon.com; Sun, 05 Apr 2020 13:23:20 +0000
+Received: by mail-io1-f42.google.com with SMTP id o3so12849765ioh.2
+        for <sss@moodofthemoon.com>; Sun, 05 Apr 2020 06:22:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=UkDQI6bf5/hK8ovfWXXILdXiO4bTLdhH/T1sP5SyvmY=;
+        b=ZaIRxNKipEQDl4f7LVdcy35VE5wqjojbV8aluPUJanxQs+++DD8yzoWhnErz0vdwhn
+         /CgX2O5M0bovEosDixpXKmSdG9grA8osEuV9innDDZROXwmMpp+v46SDyzmZh8eTPMi6
+         naUOI3y4vFPyD4jjnlWJ3jOebFR35roWBV8ZytPFd6sMliOMiFnprtJIqRA1LijrtUOS
+         bTxFR0E8eY9/jl+hqguFtxdCbuBzfKQMSk2qqe/xJoohdUMDNnkfYwLra4Q3Loi7ZJus
+         QBClqHraOVr6FBjTfYOykBRvIfPskS/rPDbNjUNfROAeBpxdxu51H4Q05HJNQybMMoNH
+         bnHQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=UkDQI6bf5/hK8ovfWXXILdXiO4bTLdhH/T1sP5SyvmY=;
+        b=KwfH81MB/zVGx15jcueW94m46VXoJCcXWPuVdkzUqn4OZ1MGTuBS1IJ+JqF6XTKaqW
+         yYjX6np4r2H5Hm4mUI8D2SfyvfG57VFuXzLcMYheRdTj4wEOkSfX9mr21MscPuza3Rsh
+         27Hqh6BQ+cNpYolj/wi5RW0A2UL39jzBGQLvXDtn1en+W0vUpymiVcgZJi1dz/kxtKpZ
+         iHBmZbWu23MH7E5ZV4ALO7bIW0u6+XbmnqdD6cv/nGG3474L+/dDUxDvjlwuUo8haB39
+         O/1/1fJQ52qJUx6IkGALzpRQ86EX9afySB8nQ+TJ3NBzrq9FgV3PgbAQKJR0cUnjOzqG
+         ez6w==
+X-Gm-Message-State: AGi0PubgJ5VNpuY/ytkNb0Wvz7h+/XT63XjAO0jRQaxgeGF4RO9u+y7y
+	XPLpE501sxaSL1QOv3m6e/dugYdKTMjaY0qlWqIjeQ==
+X-Google-Smtp-Source: APiQypIQsbawxyxGNlVi9HNeeuOgEMZnsSk8Jv/LfgZmfWy1ynbBb7mLhsAmZFNLt8FPaOywAwz2TfmHtOuPGfD21w4=
+X-Received: by 2002:a5d:944c:: with SMTP id x12mr15468217ior.100.1586092955908;
+ Sun, 05 Apr 2020 06:22:35 -0700 (PDT)
+Received: from 466680526474 named unknown by gmailapi.google.com with
+ HTTPREST; Sun, 5 Apr 2020 06:22:35 -0700
+From: Senior Web Developer from Individual <kcaribou0428@gmail.com>
+MIME-Version: 1.0
+Date: Sun, 5 Apr 2020 06:22:35 -0700
+Message-ID: <CALb2sEQSC0G-1_f6qOXqu6Ciy98uBSb3vFhjFT3AyM1yhR=1bA@mail.gmail.com>
+Subject: ssssssssssssssssssssssssssssss
+To: sss@moodofthemoon.com
+Content-Type: multipart/alternative; boundary="00000000000037be0605a28b0bdd"
+X-Spam-Status: No, score=3.0
+X-Spam-Score: 30
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "dunhere.moodofthemoon.com.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  tttttttttttttttttttttttttttttttttttttttt tttttttttttttttttttttttttttttttttttttttt
+    
+ Content analysis details:   (3.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.166.42 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [kcaribou0428[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [kcaribou0428[at]gmail.com]
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.3 HTML_IMAGE_ONLY_04     BODY: HTML: images with 0-400 bytes of words
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.166.42 listed in list.dnswl.org]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 TVD_SPACE_RATIO        No description available.
+  0.5 JMQ_TRACKER            Message uses image-based tracker
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--00000000000037be0605a28b0bdd
+Content-Type: text/plain; charset="UTF-8"
+
+tttttttttttttttttttttttttttttttttttttttt
+
+--00000000000037be0605a28b0bdd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div>tttttttttttttttttttttttttttttttttttttttt</div=
+><img width=3D"1" height=3D"1" style=3D"display:none" src=3D"https://t.side=
+kickopen06.com/s1t/o/5/f18dQhb0S7kC8dDMPbW2n0x6l2B9gXrN7sKj6v46g28N56jNnPQZ=
+8VnMd3_yK1WHK-f197v5Y04?si=3D8000000002482090&amp;pi=3D681fe1aa-5060-4678-b=
+b84-fe253682ae80"></body></html>
+
+--00000000000037be0605a28b0bdd--
